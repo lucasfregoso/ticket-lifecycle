@@ -17,18 +17,18 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Ticket Lifcycle Stages</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-- Step 5
+- Stage 1
+- Stage 2
+- Stage 3
+- Stage 4
+- Stage 5
 
 (Images going from left to right)
 <h2>Installation Steps</h2>
 
 Step 1
 <p>
-<img width="1545" alt="RG and VM for OsTicket" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/8ff3dea7-1c06-4a93-98c3-90e9983992e6">
+<img width="1385" alt="Screenshot 2023-09-27 at 4 38 37 PM" src="https://github.com/lucasfregoso/ticket-lifecycle/assets/144977615/66d3b0ad-6a7b-4ac5-8b49-fe500cc79816">
 </p>
 <p>
 Our first step in creating an osTicket system we create our resource group through Azure and we do that by searching up 'Resource Groups' and create one. From there we just add a name to it and make sure it has a subscription. Then, once it gets validated we move on to creating a virtual machine and we do this by searching for 'virual machines' and fill out all the details that we need, which include virtual machine name, image, region, username/password, etc. After this, once everything is set up we will open our virtual machine through microsoft remote desktop and get started with the lab.
