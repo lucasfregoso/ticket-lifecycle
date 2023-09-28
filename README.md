@@ -40,7 +40,7 @@ Stage 2
 <img width="964" alt="Screenshot 2023-09-27 at 4 50 06 PM" src="https://github.com/lucasfregoso/ticket-lifecycle/assets/144977615/b0f34ed4-9a2f-4986-be40-183685bb9604">
 </p>
 <p>
-For our first ticket,
+So we've created our list of tickets and have them all ready to be taken care of. Usually a manager or maybe a lead will assign such tickets, but as our lab is an example/practice for real world issues we will be the 'manager' and assign them to our users or our admin. So, this ticket was assigned to Jane Doe (the system administrator) and the issue was that 'most of her department was having issues with their current tablets' and their question was when are they going to get a hardware refresh? After seeing this, we can determine that this a low priority as it falls under gereral inquiry, which wouldn't severely impact business in this case. Also, for the SLA Plan we could put this as SEV C and this is our longest timeframe to complete this ticket showing us that this again is not our top priority. However, we solved this problem by replying that they are scheduled for a refresh in Q1 and we let them know as well that they could email us if they have any questions.
 </p>
 <br />
 
