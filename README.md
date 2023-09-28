@@ -21,7 +21,6 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Stage 2
 - Stage 3
 - Stage 4
-- Stage 5
 
 (Images going from left to right)
 <h2>Installation Steps</h2>
