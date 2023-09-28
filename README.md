@@ -44,12 +44,12 @@ So we've created our list of tickets and have them all ready to be taken care of
 </p>
 <br />
 
-Step 3
+Stage 3
 <p>
-<img width="1631" alt="Screenshot 2023-09-25 at 10 43 42 PM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/fc8f877c-09a6-4215-9a72-c84d62105201">
+<img width="1647" alt="Screenshot 2023-09-27 at 5 35 46 PM" src="https://github.com/lucasfregoso/ticket-lifecycle/assets/144977615/4f11117e-478b-4efb-92aa-99faf201305d">
 </p>
 <p>
-For the next part, we will install a few key requirements for out osTicketing System to function properly. So, from our instruction list we will install Rewrite Module by clicking on the link provided, go to 'downloads'in our files, open it up, agree to the terms/conditions, and install it. Then, we make a folder called 'PHP' on our c: drive, download 'PHP 7.3.8', onced it's downloaded we extract it into our PHP folder, and everything will get dumped into there. After this, we install both C++ Redistributable and MySQL Server.
+For the next ticket, 
 </p>
 <br />
 
