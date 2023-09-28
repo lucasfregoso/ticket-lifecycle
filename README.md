@@ -49,26 +49,17 @@ Stage 3
 <img width="1647" alt="Screenshot 2023-09-27 at 5 35 46 PM" src="https://github.com/lucasfregoso/ticket-lifecycle/assets/144977615/4f11117e-478b-4efb-92aa-99faf201305d">
 </p>
 <p>
-For the next ticket, 
+For the next ticket, Ken was having an issue with the adobe reader not working for the entire account department. Looking through the ticket we can deduce that this is a SEV B in our SLA Plan, which means that we have 4 hours to resolve it on a 24/7 timeframe. We come to this conclusion with the information given inferring that this isn't a top level threat nor a low level one, but instead just right in the middle. Another note, since these tickets are assigned to our different workers we simply log out and log back in as the 'worker' or in this case John Doe and resolve the ticket as them. So logged in as John, we can have back and forth conversations via messaging if we need more information to solve the issue and by doing our own research as well. Furthermore, if its an issue that requires someone with more experience we can also ressign the ticket to a different person in our IT group. 
 </p>
 <br />
 
 Step 4
 <p>
-<img width="1631" alt="Screenshot 2023-09-25 at 11 37 12 PM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/90859a89-c128-4aa0-b50b-c11c82a4eeb5">
+<img width="1647" alt="Screenshot 2023-09-27 at 5 56 23 PM" src="https://github.com/lucasfregoso/ticket-lifecycle/assets/144977615/808c87fc-622d-4d15-869d-777105e6b5cc">
 </p>
 <p>
-Now, we open up IIS as an admin, register PHP from within the the IIS, restart it to make sure that it is registered, and then download the osTicket file from our list of instructions. Next, we extracted and copied the 'upload' (which came from the osTickett file we downloaded) folder into c:\inetpub\www.root and then renamed the 'upload' file to 'osTicket.' After this, we go back to IIS and go to sites-->Default-->osTicket and towards the very right we click 'Browse*:80', which will bring us to the 'osTicket installer' website and means we are on the right path. After this, we go back to IIS to enable some extensions since a couple of them will not be enabled at first. So, we go back to IIS and head to sites-->Default-->osTicket and double click on PHP Manager and enable the following: php_imap.dll, php_intl.dll, php_opcache.dll. 
+For our last ticket, we have our critical or high priority ticket that requires quick to immediate attention. This is our SEV A SLA Plan, which simply means that the ticket needs to be solved as soon as possible and is on a 1 hour 24/7 timeframe for our example. We notice that the help topic is 'Business Critical Outage' and again this lets us know the severity of the issue that we are dealing with. So, we solved this ticket by simply transferring it over to our system admin department as this particular issue was not within our field, but we would let Ken (one who submitted the ticket) know what is going on and explain to him why as well just so there is no miscommunication and so that he is aware of what's happening. 
 </p>
 <br />
 
-Step 5
-<p>
-<img width="771" alt="Screenshot 2023-09-26 at 12 13 47 AM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/07fc8e46-c92f-4750-9e52-0ba8dac20dc5">
-</p>
-<p>
-Finally, we rename our root file to ost-config.php and assign permissions on this file so that everyone is able to do anything to this file since the osTicket installer needs to interact and maanipulate with this file. To do this we go properties from this file, go to security, then to advanced, disable inheritance, and remove all permissions. Afterwards, we add new permissions and allow 'everyone' to have full control. Then, we continue setting up osTicket and install Heidi SQL, which will allow us to connect the MySQL server that we installed earlier and set up a database that the osTicket is going to use. We create the database in Heidi SQL once it's downloaded and call it 'osTicket' and fill out the remaaining info on the osTicket installer website. Lastly, we'll get a 'congratulations' text if we did it right and after this we do a clean up to make everything comes full circle and login to make that works too.
-</p>
-<br />
-Step 5 Continued
-<img width="1525" alt="Screenshot 2023-09-26 at 12 14 57 AM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/08c20dd6-774c-4f87-a5bf-7a208a784696">
+
